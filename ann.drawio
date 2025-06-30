@@ -1,55 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxGraphModel dx="788" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-  <root>
-    <mxCell id="0" />
-    <mxCell id="1" parent="0" />
-    <!-- Input Nodes -->
-    <mxCell id="2" value="X1" style="ellipse;fillColor=#ADD8E6;strokeColor=#000000;" vertex="1" parent="1">
-      <mxGeometry x="50" y="100" width="50" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="3" value="X2" style="ellipse;fillColor=#ADD8E6;strokeColor=#000000;" vertex="1" parent="1">
-      <mxGeometry x="50" y="200" width="50" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="4" value="X3" style="ellipse;fillColor=#ADD8E6;strokeColor=#000000;" vertex="1" parent="1">
-      <mxGeometry x="50" y="300" width="50" height="50" as="geometry" />
-    </mxCell>
-    <!-- Neurons -->
-    <mxCell id="5" value="Neuron 1" style="ellipse;fillColor=#FFA07A;strokeColor=#000000;" vertex="1" parent="1">
-      <mxGeometry x="200" y="100" width="80" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="6" value="Neuron 2" style="ellipse;fillColor=#FFA07A;strokeColor=#000000;" vertex="1" parent="1">
-      <mxGeometry x="200" y="200" width="80" height="50" as="geometry" />
-    </mxCell>
-    <mxCell id="7" value="Neuron 3" style="ellipse;fillColor=#FFA07A;strokeColor=#000000;" vertex="1" parent="1">
-      <mxGeometry x="200" y="300" width="80" height="50" as="geometry" />
-    </mxCell>
-    <!-- Connections -->
-    <mxCell id="8" edge="1" parent="1" source="2" target="5">
-      <mxGeometry relative="1" as="geometry" />
-    </mxCell>
-    <mxCell id="9" edge="1" parent="1" source="3" target="6">
-      <mxGeometry relative="1" as="geometry" />
-    </mxCell>
-    <mxCell id="10" edge="1" parent="1" source="4" target="7">
-      <mxGeometry relative="1" as="geometry" />
-    </mxCell>
-    <mxCell id="11" edge="1" parent="1" source="2" target="6">
-      <mxGeometry relative="1" as="geometry" />
-    </mxCell>
-    <mxCell id="12" edge="1" parent="1" source="2" target="7">
-      <mxGeometry relative="1" as="geometry" />
-    </mxCell>
-    <mxCell id="13" edge="1" parent="1" source="3" target="5">
-      <mxGeometry relative="1" as="geometry" />
-    </mxCell>
-    <mxCell id="14" edge="1" parent="1" source="3" target="7">
-      <mxGeometry relative="1" as="geometry" />
-    </mxCell>
-    <mxCell id="15" edge="1" parent="1" source="4" target="5">
-      <mxGeometry relative="1" as="geometry" />
-    </mxCell>
-    <mxCell id="16" edge="1" parent="1" source="4" target="6">
-      <mxGeometry relative="1" as="geometry" />
-    </mxCell>
-  </root>
-</mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6" pages="2">
+  <diagram id="fN6ykxM-PI7dZ_T1-ef8" name="Page-1">
+    <mxGraphModel dx="872" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="X1" style="ellipse;fillColor=#ADD8E6;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="X2" style="ellipse;fillColor=#ADD8E6;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="X1" style="ellipse;fillColor=#ADD8E6;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="50" y="300" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Neuron 1" style="ellipse;fillColor=#FFA07A;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="200" y="100" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Neuron 1" style="ellipse;fillColor=#FFA07A;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="210" y="230" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Neuron 2" style="ellipse;fillColor=#FFA07A;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="210" y="340" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" source="2" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" source="4" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" style="entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" source="4" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUzb5kQ2Nirqyb5npkcm-16" value="X1" style="ellipse;fillColor=#ADD8E6;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hUzb5kQ2Nirqyb5npkcm-18" value="Neuron 1" style="ellipse;fillColor=#FFA07A;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="630" y="90" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hUzb5kQ2Nirqyb5npkcm-19" edge="1" parent="1" source="hUzb5kQ2Nirqyb5npkcm-16" target="hUzb5kQ2Nirqyb5npkcm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Z0cHwptuIxlC8zlf_L-N" name="Page-2">
+    <mxGraphModel dx="872" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-1" value="X1" style="ellipse;fillColor=#ADD8E6;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-2" value="X2" style="ellipse;fillColor=#ADD8E6;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-3" value="X3" style="ellipse;fillColor=#ADD8E6;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-4" value="Neuron 1" style="ellipse;fillColor=#FFA07A;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-5" value="Neuron 2" style="ellipse;fillColor=#FFA07A;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-6" value="Neuron 3" style="ellipse;fillColor=#FFA07A;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-7" edge="1" parent="1" source="qSvL-Rmm2csWUvDbF_TQ-1" target="qSvL-Rmm2csWUvDbF_TQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-8" edge="1" parent="1" source="qSvL-Rmm2csWUvDbF_TQ-2" target="qSvL-Rmm2csWUvDbF_TQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-9" edge="1" parent="1" source="qSvL-Rmm2csWUvDbF_TQ-3" target="qSvL-Rmm2csWUvDbF_TQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-10" edge="1" parent="1" source="qSvL-Rmm2csWUvDbF_TQ-1" target="qSvL-Rmm2csWUvDbF_TQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-11" edge="1" parent="1" source="qSvL-Rmm2csWUvDbF_TQ-1" target="qSvL-Rmm2csWUvDbF_TQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-12" edge="1" parent="1" source="qSvL-Rmm2csWUvDbF_TQ-2" target="qSvL-Rmm2csWUvDbF_TQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-13" edge="1" parent="1" source="qSvL-Rmm2csWUvDbF_TQ-2" target="qSvL-Rmm2csWUvDbF_TQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-14" edge="1" parent="1" source="qSvL-Rmm2csWUvDbF_TQ-3" target="qSvL-Rmm2csWUvDbF_TQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSvL-Rmm2csWUvDbF_TQ-15" edge="1" parent="1" source="qSvL-Rmm2csWUvDbF_TQ-3" target="qSvL-Rmm2csWUvDbF_TQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
